@@ -1,5 +1,11 @@
 require 'rails_helper'
+RSpec.configure do |config|
+  # Use color in STDOUT
+  config.color = true
 
+  # other config options here...    
+
+end
 RSpec.describe ArtistsHelper, type: :helper do
 
   before do
